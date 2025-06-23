@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tuna Cybermoon (TCM)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #ffffff;
+      background: linear-gradient(to bottom, #001d3d, #000814);
+      background-image: url('https://images.unsplash.com/photo-1600267165333-52c9c841b5e2?fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 2px solid #00f2ff;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #00f2ff;
+      text-shadow: 0 0 10px #00f2ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero img {
+      width: 250px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: #00e0ff;
+      margin-top: 1rem;
+    }
+
+    .section {
+      padding: 2rem;
+      background-color: rgba(0, 0, 20, 0.6);
+    }
+
+    .section h3 {
+      font-size: 1.8rem;
+      color: #0ff;
+      border-bottom: 1px solid #0ff;
+      padding-bottom: 0.5rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #d0f0ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TUNA CYBERMOON</h1>
+</header>
+
+<section class="hero">
+  <img src="https://media.giphy.com/media/RKfnjhTDrXzW5lKOBq/giphy.gif" alt="Baby TCM Animasi" />
+  <h2>Selamat Datang di Dunia TCM</h2>
+</section>
+
+<section class="section">
+  <h3>🌊 Apa Itu TCM?</h3>
+  <p>
+    Tuna Cybermoon adalah kisah petualangan bawah laut futuristik yang mengikuti seekor bayi tuna cybernetic bernama <strong>Baby TCM</strong>, yang membawa energi suci bernama <em>Blue Code</em>. Dunia laut sedang dalam bahaya akibat kekuatan jahat bernama <strong>Mayor Blackwave</strong>, pemimpin pasukan gelap yang ingin mencuri energi tersebut untuk menguasai dunia bawah laut dan daratan.
+  </p>
+  <p>
+    Bersama pelindungnya, seorang prajurit laut hybrid bernama <strong>Blezx Aquanox</strong>, Baby TCM memulai perjalanan berbahaya menuju Palung Terakhir – tempat suci tersembunyi di dasar laut terdalam. Mereka menghadapi monster laut, robot pencuri, dan gangguan sonar dari CyberCity yang mengintai dari atas laut.
+  </p>
+</section>
+
+<section class="section">
+  <h3>⚔️ Karakter Utama</h3>
+  <ul>
+    <li><strong>Baby TCM</strong> – Ikan tuna mungil cybernetic, polos dan membawa harapan laut.</li>
+    <li><strong>Mayor Blackwave</strong> – Musuh utama, pemimpin pasukan hitam dengan pedang plasma.</li>
+    <li><strong>Blezx Aquanox</strong> – Prajurit biru laut, pelindung setia Baby TCM.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h3>🏙️ Dunia Laut & CyberCity</h3>
+  <p>
+    Laut dalam yang penuh misteri dipadukan dengan teknologi tinggi dari kota-kota terapung di atas permukaan. Neon biru bersinar di antara reruntuhan kapal dan gang cybernetic, menciptakan dunia yang belum pernah dilihat manusia.
+  </p>
+</section>
+
+<footer>
+  © 2025 TCM Project – Tuna Cybermoon Universe
+</footer>
+
+</body>
+</html>
